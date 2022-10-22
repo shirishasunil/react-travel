@@ -1,0 +1,37 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #eef4f7;
+  background-size: cover;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 600;
+  color: #334155;
+}
+.horizontal-line {
+  width: 10vw;
+  height: 4px;
+  background-color: #52bbf0;
+  margin-top: 0px;
+}
+.location-container {
+  width: 100%;
+  min-height: 80vh;
+}
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.locations-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
